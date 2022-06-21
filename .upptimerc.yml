@@ -21,6 +21,8 @@ sites:
     check: "tcp-ping"
     url: us.brainhost.ch
     port: 53
+  - name: WebRain
+    url: https://webrain.ch/
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
