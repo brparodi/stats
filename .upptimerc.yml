@@ -3,8 +3,24 @@ owner: brparodi # Your GitHub organization or username, where this repository li
 repo: stats # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
+  - name: Content Generator
+    url: https://dropbox.brainbox.tools/showcase/bundle/content-generator/app/privacy-policy/index.html
+  - name: BrainHost Website
+    url: https://brainhost.ch/
+  - name: BrainHost Portal
+    url: https://portal.brainhost.ch/
+  - name: DNS (CH)
+    check: "tcp-ping"
+    url: ch.brainhost.ch
+    port: 53
+  - name: DNS (ASIA)
+    check: "tcp-ping"
+    url: asia.brainhost.ch
+    port: 53
+  - name: DNS (US)
+    check: "tcp-ping"
+    url: us.brainhost.ch
+    port: 53
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
