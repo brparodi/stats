@@ -24,7 +24,3 @@
   --graph-opacity: 1;
   --graph-filter: none;
 }
-
-article.up.link div:nth-child(4) {
-  display: none;
-}
